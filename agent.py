@@ -7,35 +7,61 @@ INDEX_DIR = "faiss_index"
 FAQ_FILE = "faq.txt"
 
 
-def _build_vectorstore_from_faq() -> FAISS:
-    """Build FAISS index from faq.txt using per-Q&A pairs."""
+def parse_faq_file():
+    """Parse faq.txt into (question, answer) pairs.
+
+    Assumes format like:
+    Q1?
+    A1...
+
+    Q2?
+    A2...
+
+    Blank lines are allowed but not required.
+    """
     if not os.path.exists(FAQ_FILE):
         raise FileNotFoundError(f"{FAQ_FILE} not found in project folder")
 
     with open(FAQ_FILE, "r", encoding="utf-8") as f:
-        faq_text = f.read()
+        lines = [line.strip() for line in f.readlines()]
 
-    if not faq_text.strip():
-        raise ValueError("faq.txt is empty. Please add some Q&A content.")
+    lines = [ln for ln in lines if ln]
 
-    blocks = faq_text.strip().split("\n\n")
+    qa_pairs = []
+    i = 0
+    n = len(lines)
+
+    while i < n:
+        line = lines[i].strip()
+        if line.endswith("?"):
+            question = line
+            i += 1
+            answer_lines = []
+            while i < n and not lines[i].strip().endswith("?"):
+                answer_lines.append(lines[i].strip())
+                i += 1
+            answer = " ".join(answer_lines).strip()
+            if answer:
+                qa_pairs.append((question, answer))
+        else:
+            i += 1
+
+    if not qa_pairs:
+        raise ValueError("No valid Q&A pairs found in faq.txt")
+
+    return qa_pairs
+
+
+def _build_vectorstore_from_faq() -> FAISS:
+    """Build FAISS index from faq.txt using per Q&A pair."""
+    qa_pairs = parse_faq_file()
 
     texts = []
     metadatas = []
 
-    for block in blocks:
-        lines = [line.strip() for line in block.splitlines() if line.strip()]
-        if len(lines) < 2:
-            continue
-
-        question = lines[0]
-        answer = " ".join(lines[1:])
-
-        texts.append(answer)
-        metadatas.append({"question": question})
-
-    if not texts:
-        raise ValueError("No valid Q&A pairs found in faq.txt")
+    for q, a in qa_pairs:
+        texts.append(a)
+        metadatas.append({"question": q})
 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
@@ -68,13 +94,13 @@ def load_vectorstore() -> FAISS:
 
 def answer_question(question: str) -> str:
     """
-    Retrieve the most relevant ANSWER from faq.txt for the given question.
-    No OpenAI / no API key.
+    Retrieve the most relevant single ANSWER from faq.txt.
+    No OpenAI / no API key needed.
     """
     vectorstore = load_vectorstore()
     retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 
-    # New LangChain API: use invoke() instead of get_relevant_documents()
+    # Modern LangChain retriever API: use invoke()
     docs = retriever.invoke(question)
 
     if not docs:
@@ -82,10 +108,9 @@ def answer_question(question: str) -> str:
 
     best = docs[0]
     answer = best.page_content.strip()
-    # If you ever want to see the question too:
-    # question_text = best.metadata.get("question", "")
-    # return f"{question_text}\n{answer}"
+    # If you want, you can also include question:
+    # q = best.metadata.get("question", "")
+    # return f"{q}\n{answer}"
 
     return answer
-
 
