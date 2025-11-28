@@ -1,0 +1,592 @@
+What are the office working hours?
+Office is open from 9 AM to 6 PM, Monday to Saturday.
+
+Is lunch break provided?
+Yes, employees receive a lunch break from 1 PM to 2 PM.
+
+How can I apply for leave?
+You can apply for leave through the HR portal under the "Leave Section."
+
+How many leaves are allotted per year?
+Employees get 12 casual leaves and 12 sick leaves annually.
+
+How can I check my attendance?
+You can check attendance through HR Portal → Attendance → My Records.
+
+How do I download salary slips?
+Go to Employee Portal → Payroll → Salary Slip → Download.
+
+When is salary usually credited?
+Salary is credited between the 1st and 5th of every month.
+
+Whom should I contact for salary-related concerns?
+Please contact the Finance/HR department via support email.
+
+How can I update my bank details?
+Navigate to Employee Portal → Profile → Bank Details → Update.
+
+How can I reset my login password?
+Click “Forgot Password” on the login page and follow the instructions.
+
+How do I update my personal information?
+Go to Employee Portal → Profile → Personal Info → Edit.
+
+How can I contact HR for support?
+Send an email to hr@company.com or raise a support ticket on the HR Portal.
+
+Where can I access company policies?
+Policies are available on the HR Portal under the “Company Policies” section.
+
+Does the company provide work-from-home?
+Work-from-home is granted only with manager approval.
+
+How do I request work-from-home?
+Submit a WFH request in Employee Portal → WFH Application.
+
+How can I schedule a meeting?
+Use Google Calendar or Company Calendar and send an invite to members.
+
+Where can I view upcoming holidays?
+Go to HR Portal → Notices → Holiday Calendar.
+
+What is the dress code at the workplace?
+Business casual from Monday to Friday, casual on Saturdays.
+
+How do I report a technical issue?
+Raise an IT Support ticket or send email to support@company.com.
+
+What should I do if my access card is not working?
+Visit the Security Office or raise a request to Admin Support.
+
+How do I connect to the office Wi-Fi?
+Select “Company WiFi” and enter the password provided by IT.
+
+How do I request new laptop or hardware?
+Submit a request via IT Support → Hardware Request Form.
+
+Is late login allowed?
+Yes, late login is allowed up to 10:00 AM; beyond that, it is marked late.
+
+How do I apply for reimbursement?
+Submit bills in Employee Portal → Reimbursement → Submit.
+
+Where can I check my project allocation?
+Visit the Project Management Portal for project details.
+
+How do I apply for travel allowance?
+Go to Employee Portal → Travel → Apply for Travel Allowance.
+
+Does the company provide training programs?
+Yes, monthly training sessions and webinars are conducted.
+
+How do I register for a training session?
+HR Portal → Training Calendar → Register.
+
+How do I apply for a new office ID card?
+Submit request via Admin Support → ID Card Request.
+
+Who should I contact during emergencies?
+Call the Emergency Support Number listed in HR Portal → Contacts.
+
+How do I request a shift change?
+Submit a shift change request to your reporting manager via HR Portal.
+
+Are mobile phones allowed inside the office?
+Yes, but they should be kept in silent mode during working hours.
+
+Is food available in the office cafeteria?
+Yes, the cafeteria provides breakfast, lunch, and snacks at subsidized rates.
+
+Can I bring my own food to the office?
+Yes, employees are allowed to bring their own meals.
+
+How do I book a conference room?
+Use the Room Booking feature in the Company Calendar app.
+
+Can interns apply for leave?
+Yes, interns can apply for leave with manager approval.
+
+Is Biometric attendance mandatory?
+Yes, biometric entry and exit are mandatory for attendance recording.
+
+What is the probation period for new employees?
+The probation period is six months from the date of joining.
+
+How do I receive joining materials?
+Joining kit will be provided by HR on the first working day.
+
+Where do I upload my onboarding documents?
+Upload documents in HR Portal → Onboarding → Document Upload.
+
+Can employees switch projects?
+Project switch is possible based on performance and business requirement.
+
+How do I request a relocation?
+Send a relocation request to HR with valid justification and approval.
+
+Can I bring visitors to the office?
+Visitors are allowed only with prior approval and visitor ID registration.
+
+How do I update emergency contact information?
+Go to Employee Portal → Profile → Emergency Contacts → Update.
+
+What should I do if I forget to mark biometric attendance?
+Submit a missed punch request via HR Portal → Attendance → Missed Punch.
+
+Are pets allowed inside the office?
+No, pets are not allowed inside office premises.
+
+Does the company celebrate festivals?
+Yes, festival celebrations and cultural events are organized regularly.
+
+How do I participate in cultural programs?
+Check HR Portal → Events → Register for participation.
+
+How do I join recreational clubs in the company?
+You can join clubs by registering under HR Portal → Clubs & Communities.
+
+Does the company provide transportation?
+Yes, cab and bus facilities are available for certain routes and shifts.
+
+How do I register for transportation?
+Submit a request under Employee Portal → Transport Services → Register.
+
+Can I change my transportation route later?
+Yes, submit a route change request under Transport Services.
+
+Is parking available for employees?
+Yes, parking slots are available for employees with valid vehicle registration.
+
+How do I apply for a vehicle parking pass?
+Fill out the Parking Pass Request in the Employee Portal → Admin Services.
+
+Are there facilities for electric vehicle charging?
+Yes, EV charging points are available in the office parking area.
+
+Does the company provide accommodation for new joiners?
+Accommodation may be provided depending on project location and role.
+
+How do I request relocation assistance?
+Submit a relocation assistance request through HR Portal → Relocation.
+
+Can I request a change of reporting manager?
+Such changes are considered only based on HR and management evaluation.
+
+How do I request a team change?
+Submit a request to your current manager with justification; approval required.
+
+What is the policy on overtime?
+Overtime is compensated based on policy and must be pre-approved by the manager.
+
+How do I claim overtime compensation?
+Upload approved overtime sheet in Employee Portal → Payroll → Overtime Claim.
+
+Does the company provide meals during overtime?
+Yes, dinner coupons are provided if working beyond 8 PM.
+
+Is medical insurance provided to employees?
+Yes, medical insurance coverage is provided to all full-time employees.
+
+Can I add family members to my health insurance?
+Yes, dependents can be added during annual insurance enrollment.
+
+How do I download my health insurance card?
+Go to HR Portal → Insurance → Download E-card.
+
+Whom should I contact for medical insurance queries?
+Email insurance-support@company.com or raise a ticket under Insurance Support.
+
+What is the company’s policy on casual leave?
+Casual leave can be taken for personal reasons with prior approval.
+
+What is the company’s policy on sick leave?
+Sick leave can be taken when employee is ill; medical certificate required beyond 2 days.
+
+How do I apply for maternity leave?
+Apply via HR Portal → Leave → Maternity Leave, attaching required documents.
+
+Is paternity leave available?
+Yes, paternity leave is provided based on company policy.
+
+Are national holidays mandatory holidays?
+Yes, national holidays are mandatory and will be announced yearly.
+
+How do I check upcoming salary revisions?
+Salary revisions are visible in Employee Portal → Payroll → Compensation Review.
+
+Does the company provide performance bonuses?
+Yes, performance-based bonuses are given based on yearly evaluations.
+
+How do I know my performance rating?
+Performance rating will be communicated by your manager during appraisal cycle.
+
+Where can I view appraisal history?
+Go to Employee Portal → Performance → Appraisal History.
+
+How do I request feedback from my manager?
+Use Feedback Request option in HR Portal → Performance → Request Feedback.
+
+Can I request training for a specific skill?
+Yes, raise a training request in HR Portal → Learning & Development.
+
+How do I access the e-learning platform?
+Login to HR Portal → Learning → eLearning Dashboard.
+
+Does the company support higher studies?
+Yes, higher education support is offered based on policy and eligibility.
+
+How do I apply for higher education support?
+Submit application under HR Portal → Education Assistance.
+
+Does the company allow freelance work outside office?
+No, freelance/secondary employment is not allowed without permission.
+
+Is two-month notice required for resignation?
+The standard notice period is 60 days unless mentioned otherwise in the contract.
+
+How do I submit resignation?
+Go to Employee Portal → Separation → Submit Resignation Form.
+
+Can I revoke my resignation?
+Yes, resignation can be withdrawn before the final approval stage.
+
+What happens after resignation is accepted?
+A relieving timeline and exit checklist will be provided by HR.
+
+How do I get my relieving letter?
+Relieving letter will be emailed after final settlement and clearance.
+
+What is full and final settlement?
+It includes pending salary, leaves encashed, deductions, and bonus if applicable.
+
+When is full and final settlement processed?
+It is usually processed within 30–45 days after the last working day.
+
+How do I know my last working day?
+It will be shown on the Employee Portal under Separation Summary.
+
+Do I need to return office assets before last working day?
+Yes, all issued items must be returned to Admin/IT before exit clearance.
+
+How do I get experience certificate?
+It will be issued with the relieving letter after exit formalities.
+
+How do I transfer PF from previous company?
+Use the UAN portal to request PF transfer from earlier employer.
+
+What is the company’s policy on night shifts?
+Night shift eligibility depends on project requirement and manager approval.
+
+Are night shift allowances provided?
+Yes, night shift allowance is provided based on shift hours.
+
+How do I request a shift allowance?
+Submit it through Payroll → Shift Allowance → Apply.
+
+Where can I find the seating arrangement or desk allocation?
+Desk allocation information is available under Admin Portal → Seating Plan.
+
+How do I request a desktop monitor instead of a laptop?
+Submit a hardware modification request under IT Support → Hardware Request.
+
+Can I get an extra monitor for work?
+Yes, based on availability and project requirement; raise a request via IT Support.
+
+How do I request a new chair or desk?
+Send request through Admin Services → Furniture Request.
+
+Does the company support ergonomic evaluations?
+Yes, ergonomic assessments can be scheduled through Admin Portal.
+
+How can I access past training certificates?
+Training certificates are available under HR Portal → Learning → Certificates.
+
+Does the company provide mentor support for new employees?
+Yes, each new employee is assigned a mentor during onboarding.
+
+How do I request change of mentor?
+Submit feedback to HR; change will be reviewed based on requirement.
+
+Are there women safety policies in the company?
+Yes, policies are available under HR Portal → Safety Policies.
+
+Who do I contact for women safety concerns?
+Email womensafety@company.com or contact the Internal Complaints Committee.
+
+How do I report workplace harassment?
+File a confidential complaint via HR Portal → Grievance → Harassment Complaint.
+
+What is the company’s policy on workplace harassment?
+Zero tolerance policy, with strict disciplinary action upon investigation.
+
+Does the office have medical support?
+Yes, the office has an on-site medical room and nurse support.
+
+Are emergency medical kits available?
+Yes, first-aid kits are located at every floor’s security desk.
+
+Does the company provide mental wellness counseling?
+Yes, counseling services are available through the Employee Assistance Program.
+
+How can I book a counseling session?
+Go to HR Portal → Wellness → Counseling Request.
+
+Does the company conduct sports events?
+Yes, quarterly sports tournaments and matches are organized.
+
+How can I register for sports activities?
+Register via HR Portal → Events → Sports Registration.
+
+Can I participate in more than one event?
+Yes, participation in multiple sports events is allowed.
+
+How do I apply for canteen card recharge?
+Recharge can be done at Canteen Counter or through Employee Wallet App.
+
+Does the company provide gym facilities?
+Yes, gym access is available at selected office locations.
+
+How do I get gym access?
+Submit a gym access request via HR Portal → Facilities → Gym Access.
+
+Is there a library in the office?
+Yes, a library is available for employees with ID-based book lending.
+
+How do I borrow books from the library?
+Visit the library counter and issue books using your employee ID card.
+
+How many books can I borrow at a time?
+A maximum of three books can be borrowed for 30 days.
+
+Are personal deliveries allowed at the office?
+Personal deliveries are discouraged but allowed in special cases.
+
+How do I request stationary items?
+Raise a stationary request via Admin Services → Stationary Requisition.
+
+Does the company provide identity card lanyards?
+Yes, lanyards can be collected from Admin Support Desk.
+
+What should I do if office equipment is damaged?
+Report immediately through IT Support → Equipment Damage.
+
+Does the company provide Internet reimbursement for WFH?
+Yes, employees working remotely can claim internet reimbursement.
+
+How do I claim Internet reimbursement?
+Upload bill in Employee Portal → Reimbursement → Internet Bill.
+
+Does the company provide keyboard/mouse upgrade?
+Request must be submitted via IT Support → Hardware Upgrade.
+
+Can I install software on my office laptop?
+Software installation must be approved by IT Security Team.
+
+How do I request licensed software?
+Raise Software Access Request under IT Support → Software Requests.
+
+What is the company’s policy on data privacy?
+Employees must follow company-approved tools and avoid sharing confidential data externally.
+
+How do I report a data breach?
+Immediately report the incident to cybersecurity@company.com.
+
+What should I do if a suspicious email is received?
+Report phishing email to security-alert@company.com and do not click any links.
+
+Does the company restrict usage of USB drives?
+Yes, USB ports are restricted for data security purposes.
+
+How do I request access to a blocked USB port?
+Raise a security exception request through IT Security.
+
+Does the company monitor internet browsing activity?
+Office internet usage is monitored as per IT security policy.
+
+What is the policy on social media usage?
+Employees may use social media during break time but must avoid posting company information.
+
+How do I request shared folder access?
+Raise Shared Folder Access request via IT Support → Access Management.
+
+How do I get access to internal development repositories?
+Request must be raised by your reporting manager under IT Developer Access.
+
+Does the company allow bringing personal laptops?
+Personal laptops are not allowed inside the office for security reasons.
+
+Are backpacks and personal bags allowed inside premises?
+Yes, but subject to security check at entry and exit.
+
+Does the company provide lockers for personal belongings?
+Yes, lockers are available upon request via Admin Support → Locker Request.
+
+How do I request replacement locker keys?
+Raise a request to Admin Support → Locker Key Replacement.
+
+Where can I report issues regarding cafeteria food quality?
+Send feedback via HR Portal → Feedback → Cafeteria Feedback.
+
+Does the company conduct annual team outings?
+Yes, annual gatherings and team outings are planned based on department schedule.
+
+How do I volunteer for CSR activities?
+Go to HR Portal → CSR Initiatives → Register as Volunteer.
+
+Does the company support blood donation drives?
+Yes, blood donation camps are organized periodically.
+
+How do I register for blood donation?
+Register through HR Portal → Events → Blood Donation Drive.
+How can I contribute suggestions for workplace improvement?
+Submit suggestions via HR Portal → Feedback → Workplace Suggestions.
+
+Are employee feedback surveys conducted?
+Yes, quarterly employee feedback surveys are conducted.
+
+How can I participate in employee surveys?
+A survey invitation link will be shared over email or HR Portal.
+
+Does the company have a rewards and recognition program?
+Yes, employees are rewarded for performance and excellence every quarter.
+
+How do I nominate someone for an award?
+Submit nomination through HR Portal → Rewards & Recognition → Nominate.
+
+What is the dress code during client visits?
+Business formals are mandatory during client interactions and meetings.
+
+Does the company provide travel insurance during business trips?
+Yes, travel insurance is provided for official trips.
+
+How do I book official travel tickets?
+Submit travel booking request via Employee Portal → Travel Desk Booking.
+
+Can I book travel myself and get reimbursed later?
+Self-booking is allowed only with prior approval from the Travel Desk.
+
+How do I cancel an already booked business trip?
+Raise a cancellation request under Employee Portal → Travel → Cancel Trip.
+
+Does the company provide per diem allowance during business travel?
+Yes, per diem allowance is provided based on policy and location.
+
+How can I claim business travel expenses?
+Upload bills in Employee Portal → Travel → Expense Claim.
+
+Does the office have daycare facilities?
+Yes, daycare facilities are available at selected office locations.
+
+How do I enroll my child in daycare?
+Contact daycare administration through HR Portal → Facilities → Daycare.
+
+Are washrooms and work areas disability-friendly?
+Yes, wheelchair accessibility and disability facilities are available.
+
+Does the company provide accessible seating for differently-abled employees?
+Yes, accessible seating can be arranged on request via HR Portal → Accessibility Support.
+
+How do I apply for special assistance at workplace?
+Submit request to HR under Accessibility Support.
+
+What is the company’s policy on mobile device security?
+Official devices must be password protected and secured with company-approved apps.
+
+How do I connect to the VPN while working remotely?
+Use the company VPN client and login with your official credentials.
+
+Whom do I contact for VPN-related issues?
+Email vpn-support@company.com or raise an IT ticket.
+
+Where can I find employee referral policy?
+Referral policy is available under HR Portal → Policies → Employee Referral Policy.
+
+How do I refer a candidate for recruitment?
+Submit the referral via HR Portal → Referrals → Refer a Candidate.
+
+Do employees receive referral bonuses?
+Yes, referral bonuses are provided once the referred candidate completes probation.
+
+How do I track my referral status?
+Employee Portal → Referrals → Referral Status.
+
+Does the company allow early logouts?
+Early logout is allowed only with prior approval from the reporting manager.
+
+How do I view my punch-in and punch-out timing?
+Employee Portal → Attendance → Daily Attendance Log.
+
+Can I request manual attendance correction?
+Yes, submit a correction request through Attendance → Attendance Correction.
+
+How are late arrivals handled?
+Frequent late arrivals may lead to deduction from leave balance.
+
+Can I work on public holidays?
+Public holiday work is allowed only on critical project requirements with approval.
+
+How is compensation given for working on public holidays?
+Employees receive compensatory leave or holiday allowance based on policy.
+
+Does the company allow job rotations?
+Yes, job rotations are possible based on skill match and manager approval.
+
+How do I request a job rotation?
+Submit a request under HR Portal → Career Development → Job Rotation.
+
+Does the company provide internal job postings (IJP)?
+Yes, employees can apply for open roles via HR Portal → IJP.
+
+How do I apply for internal job openings?
+Go to HR Portal → Career → Internal Job Posting → Apply.
+
+How do I track my IJP application status?
+Track via HR Portal → Career → Application Status.
+
+What is the company’s policy on probation confirmation?
+Confirmation is based on performance and manager recommendation.
+
+How do I receive probation confirmation letter?
+Confirmation letter is shared through Employee Portal → Letters.
+
+Does the company allow hybrid work?
+Hybrid work is permitted based on role and project requirement.
+
+How do I request hybrid work arrangement?
+Submit a request via HR Portal → Work Arrangement → Hybrid Work Request.
+
+Where can I check cafeteria weekly menu?
+Cafeteria menu is available on HR Portal → Cafeteria → Weekly Menu.
+
+How do I report lost personal items?
+Report to Security Desk or Admin Support immediately.
+
+Does the company have a lost and found desk?
+Yes, items are collected and kept at Security Control Room.
+
+How do I participate in hackathons or innovation events?
+Go to HR Portal → Events → Hackathons & Innovation Challenges.
+
+Are competition prizes awarded for hackathons?
+Yes, winners receive certificates, rewards, or cash prizes.
+
+How do I access recorded training sessions?
+HR Portal → Learning → Past Sessions → View Recordings.
+
+Where can I give feedback about the workplace environment?
+Submit feedback in HR Portal → Feedback → Workplace Environment.
+
+How do I request a meeting with senior management?
+Send request via HR Portal → Visits & Appointments → Request Appointment.
+
+Can I donate to charity through payroll?
+Yes, you can opt for monthly charity donations through Payroll → Social Contribution.
+
+How do I opt out of charity donations?
+Disable contribution under Payroll → Social Contribution → Opt Out.
+
+How do I update my communication address?
+Go to Employee Portal → Profile → Address → Update.
+
+How do I get my employee ID number?
+Employee ID is printed on your ID card and available under Profile → Basic Details.
