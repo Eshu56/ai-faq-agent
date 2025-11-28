@@ -2,35 +2,46 @@ import os
 
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 INDEX_DIR = "faiss_index"
 FAQ_FILE = "faq.txt"
 
 
 def _build_vectorstore_from_faq() -> FAISS:
-    """Build FAISS index from faq.txt if it doesn't exist."""
+    """Build FAISS index from faq.txt using per-Q&A pairs."""
     if not os.path.exists(FAQ_FILE):
-        raise FileNotFoundError(
-            f"{FAQ_FILE} not found. Make sure the file is in the project root."
-        )
+        raise FileNotFoundError(f"{FAQ_FILE} not found in project folder")
 
     with open(FAQ_FILE, "r", encoding="utf-8") as f:
         faq_text = f.read()
 
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=50,
-        separators=["\n\n", "\n", ".", "?", "!"],
-    )
+    if not faq_text.strip():
+        raise ValueError("faq.txt is empty. Please add some Q&A content.")
 
-    docs = text_splitter.create_documents([faq_text])
+    blocks = faq_text.strip().split("\n\n")
+
+    texts = []
+    metadatas = []
+
+    for block in blocks:
+        lines = [line.strip() for line in block.splitlines() if line.strip()]
+        if len(lines) < 2:
+            continue
+
+        question = lines[0]
+        answer = " ".join(lines[1:])
+
+        texts.append(answer)
+        metadatas.append({"question": question})
+
+    if not texts:
+        raise ValueError("No valid Q&A pairs found in faq.txt")
 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 
-    vectorstore = FAISS.from_documents(docs, embeddings)
+    vectorstore = FAISS.from_texts(texts, embeddings, metadatas=metadatas)
 
     os.makedirs(INDEX_DIR, exist_ok=True)
     vectorstore.save_local(INDEX_DIR)
@@ -39,13 +50,13 @@ def _build_vectorstore_from_faq() -> FAISS:
 
 
 def load_vectorstore() -> FAISS:
-    """Load FAISS index or build it from faq.txt if missing."""
-    if not os.path.exists(INDEX_DIR):
-        return _build_vectorstore_from_faq()
-
+    """Load FAISS index or build it if missing."""
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
+
+    if not os.path.exists(INDEX_DIR):
+        return _build_vectorstore_from_faq()
 
     vectorstore = FAISS.load_local(
         INDEX_DIR,
@@ -56,12 +67,26 @@ def load_vectorstore() -> FAISS:
 
 
 def answer_question(question: str) -> str:
-    """Retrieve top FAQ answer (no OpenAI / no API key needed)."""
+    """
+    Retrieve the most relevant ANSWER from faq.txt for the given question.
+    No OpenAI / no API key.
+    """
     vectorstore = load_vectorstore()
     retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-    docs = retriever.get_relevant_documents(question)
+
+    # New LangChain API: use invoke() instead of get_relevant_documents()
+    docs = retriever.invoke(question)
+
     if not docs:
         return "Sorry, I couldn't find an answer for that in the FAQ."
-    return docs[0].page_content.strip()
+
+    best = docs[0]
+    answer = best.page_content.strip()
+    # If you ever want to see the question too:
+    # question_text = best.metadata.get("question", "")
+    # return f"{question_text}\n{answer}"
+
+    return answer
+
 
 
