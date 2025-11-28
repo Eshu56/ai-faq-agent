@@ -7,55 +7,81 @@ FAQ_FILE = "faq.txt"
 INDEX_DIR = "faiss_index"
 
 
-def main():
+def parse_faq_file():
+    """Parse faq.txt into (question, answer) pairs.
+
+    Assumes format like:
+    Q1?
+    A1...
+
+    Q2?
+    A2...
+
+    Blank lines are allowed but not required.
+    """
     if not os.path.exists(FAQ_FILE):
         raise FileNotFoundError(f"{FAQ_FILE} not found in project folder")
 
-    # 1. Read raw FAQ text
     with open(FAQ_FILE, "r", encoding="utf-8") as f:
-        faq_text = f.read()
+        lines = [line.strip() for line in f.readlines()]
 
-    if not faq_text.strip():
-        raise ValueError("faq.txt is empty. Please add some Q&A content.")
+    # Remove completely empty lines
+    lines = [ln for ln in lines if ln]
 
-    # 2. Split into Q&A blocks separated by blank lines
-    blocks = faq_text.strip().split("\n\n")
+    qa_pairs = []
+    i = 0
+    n = len(lines)
 
-    texts = []       # what will be embedded
-    metadatas = []   # store question separately if needed
+    while i < n:
+        line = lines[i].strip()
+        # Treat any line ending with '?' as a question
+        if line.endswith("?"):
+            question = line
+            i += 1
+            answer_lines = []
+            # Collect all following lines until next question or end of file
+            while i < n and not lines[i].strip().endswith("?"):
+                answer_lines.append(lines[i].strip())
+                i += 1
+            answer = " ".join(answer_lines).strip()
+            if answer:
+                qa_pairs.append((question, answer))
+        else:
+            i += 1
 
-    for block in blocks:
-        # remove extra empty lines
-        lines = [line.strip() for line in block.splitlines() if line.strip()]
-        if len(lines) < 2:
-            continue  # skip incomplete pairs
-
-        question = lines[0]
-        answer = " ".join(lines[1:])
-
-        # We embed only the ANSWER text (clean & short)
-        texts.append(answer)
-        metadatas.append({"question": question})
-
-    if not texts:
+    if not qa_pairs:
         raise ValueError("No valid Q&A pairs found in faq.txt")
 
-    print(f"✅ Found {len(texts)} Q&A pairs to index.")
+    return qa_pairs
 
-    # 3. Embeddings (FREE – no OpenAI)
+
+def main():
+    print(f"📄 Parsing FAQ from {FAQ_FILE} ...")
+    qa_pairs = parse_faq_file()
+    print(f"✅ Found {len(qa_pairs)} Q&A pairs.")
+
+    # Build texts and metadata
+    texts = []
+    metadatas = []
+
+    for q, a in qa_pairs:
+        texts.append(a)  # we embed the ANSWER text
+        metadatas.append({"question": q})
+
+    print("🧠 Creating embeddings (HuggingFace sentence-transformers)...")
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 
-    # 4. Build FAISS index from texts
+    print("🧱 Building FAISS index...")
     vectorstore = FAISS.from_texts(texts, embeddings, metadatas=metadatas)
 
-    # 5. Save FAISS index
     os.makedirs(INDEX_DIR, exist_ok=True)
     vectorstore.save_local(INDEX_DIR)
 
-    print(f"🎉 Vector database built and saved in folder: {INDEX_DIR}")
+    print(f"🎉 Done! Vector database saved in folder: {INDEX_DIR}")
 
 
 if __name__ == "__main__":
     main()
+
