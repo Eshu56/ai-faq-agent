@@ -12,3 +12,4 @@ faiss-cpu
 
 openai
 tiktoken
+
